@@ -19,7 +19,7 @@ import com.spr.hib.exceptions.EmailAlreadyExistException;
 @Repository
 public class PersonDAO{
 	
-	private static final Logger logger = LoggerFactory.getLogger(PersonDAO.class);
+	//private static final Logger logger = LoggerFactory.getLogger(PersonDAO.class);
 
 	@Autowired
 	private SessionFactory sessionFactory;
